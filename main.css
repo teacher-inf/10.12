@@ -7,14 +7,14 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-.red {
+.content {
     background-color: rgb(176, 220, 240);
 }
-.red .purpure1  {
+.content .purpure1  {
     display: flex;
     gap:35px
 }   
-.red .purpure1 a {
+.content .purpure1 a {
     font-size: 14px;
     color: black;
     text-decoration: none;
@@ -32,7 +32,7 @@ button {
     font-family: 'Roboto Slab', serif;
     font-size: 48px;
 }
-.green1 {
+.header {
     display:flex;
     justify-content: space-between;
 }
@@ -40,7 +40,7 @@ button {
     background-color: blueviolet;
     color: white;
 }
-.blue {
+.content__blue {
     display: flex;
     flex-direction: column;
     /* height: 600px; */
@@ -49,7 +49,7 @@ button {
     margin: 20px;
     gap: 80px;
 }
-.red {
+.content {
     display: flex;
     /* width: 600px; */
     justify-content: center;
@@ -60,14 +60,34 @@ button {
     gap:35px;
     align-items: center;
 }
-.green2 {
+.section {
     display: flex;
     flex-direction: row;
 }
-.yellow3 {
+.analytics {
     display: flex;
     flex-direction: column;
     height: 500px;
     width: 500px;
     gap:35px
+}
+.insights {
+    display: flex;
+    justify-content: center;
+    /* background-color: brown;    */
+}
+.insights__content {
+    display: flex;
+    flex-direction: column;
+    /* height: 600px; */
+    width: 960px;
+    justify-content: center;
+    margin: 20px;
+    gap: 80px;
+    background-color: blanchedalmond;
+}
+.why {
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
 }
